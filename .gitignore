@@ -1,0 +1,7 @@
+dist/
+build/
+*.exe
+*.pyc
+__pycache__/
+
+# https://github.com/Shreyanshsingh23/Air_Canvas.git
