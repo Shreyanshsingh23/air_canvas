@@ -36,3 +36,5 @@ print(site.getsitepackages())
 # python -m PyInstaller --onefile --windowed --hidden-import=PIL --hidden-import=PIL._tkinter_finder --hidden-import=cv2 --hidden-import=mediapipe --hidden-import=numpy --add-data="C:\\Program Files\\Python310\\lib\\site-packages\\mediapipe":mediapipe --add-data="C:\\Program Files\\Python310\\lib\\site-packages\\cv2":cv2 air_canvas_tkinter_app.py
 
 # pyinstaller --onefile --windowed --hidden-import=PIL --hidden-import=PIL._tkinter_finder --hidden-import=cv2 --hidden-import=mediapipe --hidden-import=numpy --add-data="C:\\Program Files\\Python310\\lib\\site-packages\mediapipe:mediapipe" --add-data="C:\\Program Files\\Python310\\lib\\site-packages\cv2:cv2" air_canvas_tkinter_app.py
+
+12
